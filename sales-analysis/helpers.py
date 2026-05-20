@@ -6,4 +6,4 @@ def calculate_total(quantity, price):
 
 def format_currency(amount):
     """Format number as currency"""
-    return f"${amount:,.2f}"
+    return f"${amount:,.3f}"
